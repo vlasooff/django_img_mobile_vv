@@ -1,7 +1,7 @@
 from setuptools import setup
 
 
-description = ("Django приложение использования картинок в меньшем качестве для мобильной версии сайта")
+description = ("Django app designed to be able to use lower quality images for the mobile version of your site. (This package was created quickly and for later use in my company :3)")
 
 setup(
     name='django_img_mobile_vv',
@@ -9,7 +9,7 @@ setup(
     author='Vlasov Vitalii',
     author_email='vlasovspk@yandex.ru',
     packages=['django_img_mobile_vv'],
-    url='https://github.com/vlasooff',
+    url='https://github.com/vlasooff/django_img_mobile_vv',
     license='MIT',
     description=description,
     long_description=open('README.rst').read(),
@@ -18,7 +18,7 @@ setup(
     package_data={'': ['README.rst']},
     install_requires=['django', 'user-agents'],
     classifiers=[
-        'Development Status :: 1 - Beta',
+        'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',

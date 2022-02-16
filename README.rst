@@ -10,6 +10,7 @@ Install django_img_mobile_vv, you'll have to make sure that user-agents is insta
 1. Install ``django_img_mobile_vv``, you'll have to make sure that `user-agents`_ is installed first::
 
     pip install pyyaml ua-parser user-agents 
+    pip install django-img-mobile-vv
 
 2. Configure ``settings.py``:
 
